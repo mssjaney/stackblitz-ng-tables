@@ -1,5 +1,12 @@
-<p>app works!</p>
 <button mat-raised-button color="accent">Accent</button>
 <button mat-raised-button color="primary">Accent</button>
+Hello
 
-<app-table></app-table>
+<mat-grid-list cols="4" rowHeight="800px">
+  <mat-grid-tile colspan="3" style="background: lightblue">
+    <app-table></app-table>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="1" style="background: lightsalmon">
+    <app-summary></app-summary>
+  </mat-grid-tile>
+</mat-grid-list>
